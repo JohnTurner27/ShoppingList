@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingList">
+
+    <Button
+        android:id="@+id/buttonEggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eggs"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <Button
+        android:id="@+id/buttonOranges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oranges"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/buttonRice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rice"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/buttonLettuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lettuce"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apples"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <Button
+        android:id="@+id/buttonCheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheese"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/buttonTomatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomato"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/buttonCereal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cereal"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Button
+        android:id="@+id/buttonPoptart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PopTarts"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <Button
+        android:id="@+id/buttonMilk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="553dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
